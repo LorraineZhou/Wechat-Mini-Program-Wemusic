@@ -1,0 +1,41 @@
+.top-info{
+  display: flex;
+  flex-direction: row;  
+}
+
+.top-info-content{
+  color: darkgray;
+  font-size: 12px;
+  width: 100px;
+  text-align: center;
+}
+
+.middle-info{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  align-items: center; 
+}
+
+.bottom-info{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  align-items: center; 
+}
+
+.item{
+  display: flex;
+  flex-direction:row;
+  width:250px;
+  color:  darkgray;
+  font-size:20px;
+}
+
+.yellow-btn{
+  background-color: #f1c74a;
+  color:#fff;
+  font-size:15px;
+  width:200px;
+  
+}

@@ -1,0 +1,39 @@
+<view class="container">
+
+  <view class="top-info">
+    <view class="top-info-content">
+      <view style='font-size:22px;'>28天</view>
+      <view style='font-size:14px'>连续练习</view>
+    </view>
+    <view class="top-info-content">
+      <view style='font-size:22px'>40天</view>
+      <view style='font-size:14px'>总共练习</view>
+    </view>
+    <view class="top-info-content">
+      <view style='font-size:22px'>12级</view>
+      <view style='font-size:14px'>成就等级</view>
+    </view>
+  </view>
+
+  <view class="middle-info">
+    <view style='font-size:45px;color:#f1c74a;'>1024天</view>
+    <view style='font-size:15px'>累计练习</view>
+  </view>
+
+    <view class="bottom-info">
+    <view style='font-size:16px; color:darkgray;'>我的学习小组</view>
+    <view class="item" style='margin-top:20px;'>
+      <view style='width: 150px;height:70px'>民谣吉他</view>
+      <view style='width:100px;'>4-6级</view>
+      <view><image src="../../images/right.png" mode="aspectFit" style='width:30px; height:30px;'></image></view>
+    </view>
+    <view class="item">
+      <view style='width: 150px;height:70px'>钢琴</view>
+      <view style='width:100px;'>8-10级</view>
+      <view><image src="../../images/right.png" mode="aspectFit" style='width:30px; height:30px;'></image></view>
+    </view>
+  </view>
+
+  <button class="yellow-btn" style='margin-top:30px;font-size:18px'>开  始  练  习</button>
+
+</view>

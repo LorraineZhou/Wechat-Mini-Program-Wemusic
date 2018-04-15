@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/test/test",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f1c74a",
+    "navigationBarTitleText": "WeMusic",
+    "navigationBarTextStyle":"white"
+  },
+    "tabBar": {
+      "color": "#515151",
+      "selectedColor": "#f1c74a",
+      "list": [
+        {"selectedIconPath": "images/home-press.png",
+          "iconPath": "images/home.png",
+          "pagePath": "pages/test/test",
+          "text": "主页"
+        },
+        {"selectedIconPath": "images/user-press.png",
+          "iconPath": "images/user.png",
+          "pagePath": "pages/index/index",
+          "text": "我的"
+        }
+      ]
+    }
+}
