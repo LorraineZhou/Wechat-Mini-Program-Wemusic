@@ -2,21 +2,21 @@
 
   <view class="top-info">
     <view class="top-info-content">
-      <view style='font-size:22px;'>28天</view>
+      <view style='font-size:22px;'>{{conDays}}天</view>
       <view style='font-size:14px'>连续练习</view>
     </view>
     <view class="top-info-content">
-      <view style='font-size:22px'>40天</view>
+      <view style='font-size:22px'>{{sumDays}}天</view>
       <view style='font-size:14px'>总共练习</view>
     </view>
     <view class="top-info-content">
-      <view style='font-size:22px'>12级</view>
+      <view style='font-size:22px'>{{grade}}级</view>
       <view style='font-size:14px'>成就等级</view>
     </view>
   </view>
 
   <view class="middle-info">
-    <view style='font-size:45px;color:#f1c74a;'>1024天</view>
+    <view style='font-size:45px;color:#f1c74a;'>{{days}}天</view>
     <view style='font-size:15px'>累计练习</view>
   </view>
 
@@ -34,6 +34,6 @@
     </view>
   </view>
 
-  <button class="yellow-btn" style='margin-top:30px;font-size:18px'>开  始  练  习</button>
+  <button bindtap="signBtn" disabled="{{disabled}}" class="yellow-btn" style='margin-top:30px;background-color:{{btnColor}}; font-size:18px'> {{sign}} </button>
 
 </view>

@@ -5,7 +5,7 @@
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      <text style='font-size:14px'>简介：我是一条简介，我是一条简介～</text>
+      <text style='font-size:14px'>简介：{{briefInfo}}</text>
     </block>
   </view>
 
