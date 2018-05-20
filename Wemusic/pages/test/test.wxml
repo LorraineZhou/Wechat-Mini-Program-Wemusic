@@ -34,6 +34,6 @@
     </view>
   </view>
 
-  <button bindtap="signBtn" disabled="{{disabled}}" class="yellow-btn" style='margin-top:30px;background-color:{{btnColor}}; font-size:18px'> {{sign}} </button>
+  <button bindtap="signBtn" class="yellow-btn" style='margin-top:30px;background-color:{{btnColor}}; font-size:18px'> {{sign}} </button>
 
 </view>

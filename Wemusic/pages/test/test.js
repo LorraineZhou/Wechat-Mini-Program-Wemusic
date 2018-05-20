@@ -8,6 +8,7 @@ Page({
 
   data: {
     sign:"今 日 签 到",
+
     btnColor:"#f1c74a",
     conDays:"10",
     sumDays:"20",
@@ -19,12 +20,12 @@ Page({
     url_update: 'https://www.seanxu.club/music?operation=update&id=',
   },
   signBtn: function (e) {
-    todayDate = util.formatTime(new Date())
     this.setData({
-        sign: "已 签 到",
-        btnColor:"#faedbd",
-        disabled: true
+      sign: "已 签 到",
+      btnColor: "#faedbd",
+      disabled: true
     })
+    todayDate = util.formatTime(new Date())
     wx.request({
       // 请求服务器 url 发送签到请求
       url: this.data.url_update + app.globalData.openid + '&signDate=' + todayDate,
@@ -33,10 +34,7 @@ Page({
       //请求成功
       success: (res) => {
         // 返回状态码 200
-        console.log(res.data);
-        that.setData({
-          signDate: res.data.todayDate,
-        })
+        console.log("success");
         },
       fail: (res) => {
         console.log("fail");
