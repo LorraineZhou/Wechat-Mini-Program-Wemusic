@@ -6,8 +6,8 @@
       <view style='font-size:14px'>连续练习</view>
     </view>
     <view class="top-info-content">
-      <view style='font-size:22px'>{{sumDays}}天</view>
-      <view style='font-size:14px'>总共练习</view>
+      <view style='font-size:22px'>{{maxDays}}天</view>
+      <view style='font-size:14px'>最长连续练习</view>
     </view>
     <view class="top-info-content">
       <view style='font-size:22px'>{{grade}}级</view>
@@ -34,6 +34,6 @@
     </view>
   </view>
 
-  <button bindtap="signBtn" class="yellow-btn" style='margin-top:30px;background-color:{{btnColor}}; font-size:18px'> {{sign}} </button>
+  <button bindtap="signBtn" class="yellow-btn"  disabled="{{btnDisabled}}" style='margin-top:30px;background-color:{{btnColor}}; font-size:18px' > {{sign}} </button>
 
 </view>
